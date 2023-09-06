@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+    body{
+        background-color: aliceblue;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+     img{
+        width: 150px;
+     }
+    
+     img{
+       margin-left: 30%;
+       
+     }
+     .frm div{
+       display: flex;
+       justify-content: space-between;
+     }
+     .login{
+        width: 100%;
+        height: 30px;
+        background-color: darkgreen;
+     }
+     .btn{
+        font-size: large;
+     }
+     .btn label input {
+        width: 150%;
+        height: 30px;
+        background-color: rgb(234, 0, 0);
+     }
+    </style>
+</head>
+<body>
+    <form action="frm" class="frm">
+        <img src="lady1.png" class="lad"/><br/>
+        Username<br/>
+        <input type="text" value="Enter Username" placeholder="Enter Username" size="50"/><br/><br/>
+
+        Password<br/>
+        <input type="password" placeholder="Enter Password" size="50"/><br/><br/>
+
+        <input type="button" class="login" value="Login" size="50"/><br/><br/>
+        <input type="checkbox" checked/>Remember me<br/><br/>
+        <div class="btn">
+                <label><input type="button" class="can" value="Cancel"/></label>
+                <label>Forgot<a href="#">password?</a></label>
+        </div>
+    </div>
+    </form>
+</body>

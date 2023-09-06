@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>HTML Table</title>
+<style>
+    .cap{
+        font-size: 30px;
+    }
+    .log{
+       text-align: end;
+    }
+    .reg{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+<form method="" action="">
+<table border="1" align="center" width="450" bgcolor="white" >
+<caption class="cap">Registration form</caption>>
+<tr>
+<th>First Name</th>
+<td><input type="text" name="fn" id="fn1" maxlength="20" title="First name" required size="40"/></td>
+</tr>
+<tr>
+<th>Last Name</th>
+<td><input type="text" size="40"/></td>
+</tr>
+<tr>
+    <th>Email</th>
+    <td><input type="email" size="40"/></td>
+</tr>
+<tr>
+    <th>Password</th>
+    <td><input type="password" size="40"/></td>
+</tr>
+<tr>
+    <th>Re-enter Password</th>
+    <td><input type="pword" size="40"/></td>
+</tr>
+<tr>
+    <th>Gender:</th>
+    <td size="35">
+    Male<input type="radio" name="g" value="m"/>
+    Female<input type="radio" name="g" value="f"/>
+</td>
+
+</tr>
+<tr>
+    <th>Age:</th>
+    <td><input type="number" size="40"/></td>
+</tr>
+<tr>
+    <th>Phone number</th>
+    <td><input type="number" size="40"/></td>
+</tr>
+<tr>
+    <th>Address</th>
+    <td><textarea rows="8" cols="42"></textarea></td>
+</tr>
+<tr>
+    <th>State</th>
+    <td><input type="text" size="40"/></td>
+</tr>
+<tr>
+    <th>Country</th>
+    <td>
+        <select name="country" value="Choose your country">
+        <option value="" selected="selected" disabled="disabled">Select your country</option>
+        <option value="1">India</option>
+        <option value="2">Pakistan</option>
+        </select>
+        </td>
+        </tr>  
+<tr>
+<th>Languages known</th>
+<td>
+English<input type="checkbox" name="x[]" value="h"/>
+Kannada<input type="checkbox" name="x[]" value="h2"/>
+Hindi<input type="checkbox" name="x[]" value="h3"/>
+Telugu<input type="checkbox" name="x[]" value="h"/>
+</td>
+</tr>
+<tr>
+    <td colspan="2"><input type="checkbox" name="cbox" checked/>Hereby I declare all the given details are true</td>
+</tr>
+<tr>
+    <td colspan="2" class="log">Login into <span><a href="#">Ethnus</a></span>website</td>
+</tr>
+    </table><br/>
+    <div align="center">
+        <button name="Register" value="Register">Register</button>
+    </div>
+    </form>
+
+    </body>
+    </html>

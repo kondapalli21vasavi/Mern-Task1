@@ -1,0 +1,60 @@
+<head>
+    <title>Registration Form</title>
+    <style>
+            body{
+                display: flex;
+                justify-content: center;
+                border: 1px;
+                margin-left: 35%;
+                margin-top: 10%;
+                width: fit-content;
+                box-sizing: border-box;
+                background-color: rgb(138, 20, 79);
+            }
+            form{
+                background-color: rgb(90, 6, 6);
+               width:450px;
+               height: 40vh;
+            }
+            .reg{
+                margin-left: 150px;
+            }
+            div{
+                margin-left: 20px;
+            }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <table>
+                <tr>
+        <td>Name:  </td> 
+        <td> <input type="text" value="your name" placeholder="your name" /></td></tr>
+            <tr>
+       <td> Email: </td> <td> <input type="email" value="your email" placeholder="your email" placeholder="your email" /></td></tr>
+        <tr><td>
+       Password:</td> <td><input type="password"/></td></tr>
+       <tr><td>
+        Phone Number: </td> <td> <input type="number"/></td> </tr>
+        <tr>
+            <td>Gender:</td>        <td>Male:<input type="radio"/>
+                         Female:<input type="radio"/>
+                         Other:<input type="radio"/></td> </tr>
+        <tr>
+            <td>
+            language <td><select name="language">
+            <option value="English" name="language">English</option>
+            <option value="Telugu" name="language">Telugu</option>       
+            <option value="Spanish" name="language">Spanish</option></td> </td>
+        </select> 
+    </tr>
+          <tr><td>Zip Code:</td><td> <input type="number"/></td></tr>
+         <tr><td> About: </td><td> <input tyep="text" placeholder="Write about yourself...."  /></td></tr>
+        
+         <tr> <td><input type="button" class="reg" value="Register"/></td></tr>
+        </table>
+        </div>
+    </form>
+</body>
